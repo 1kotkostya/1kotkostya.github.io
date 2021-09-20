@@ -22,6 +22,11 @@ body {
         width: 100%;
     }
 }
+@media screen  and (max-width: 950px) and (orientation: landscape){
+    .content{
+        width: 100%;
+    }
+}
 
 .ar-back {
     width: 300px;
@@ -53,6 +58,11 @@ iframe {
 @media screen  and (max-width: 600px){
     iframe {
        height: 100vh;
+    }
+}
+@media screen  and (max-width: 950px) and (orientation: landscape){
+    iframe {
+        height: 100vh;
     }
 }
 
